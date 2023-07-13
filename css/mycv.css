@@ -1,0 +1,128 @@
+body {
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#banner {
+    background-color:rgb(230, 230, 233);
+    color: #42cfb8;
+    padding: 30px;
+    background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+}
+
+#section-about {
+    text-align: center;
+}
+
+.section-heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+.menuitem {
+    width : 165px;
+    float : left; 
+    background-color:#35A29F;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#menulist li a {
+    color: black;
+    text-decoration: none;
+}
+
+#section-services {
+    text-align: center;
+}
+#servicelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.serviceitem {
+    width : 30%;
+    float : left; 
+    background-color:#35A29F;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+#servicelist li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#section-resume {
+    text-align: center;
+}
+#resumelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.resumeitem {
+    width : 30%;
+    float : left; 
+    background-color:#35A29F;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+#resumelist li a {
+    color: black;
+    text-decoration: none;
+}
+
+#site-section {
+    text-align: left;
+}
+#siteitem {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.siteitem {
+    width : 30%;
+    float : left; 
+    background-color:#35A29F;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+#siteitem li a {
+    color: black;
+    text-decoration: none;
+}
+
+#go-section {
+    text-align: center;
+}
